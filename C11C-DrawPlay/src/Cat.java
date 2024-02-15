@@ -24,6 +24,8 @@ public class Cat {
 	private static final int EAR_WIDTH = 10;
 	private static final int EAR_X = HEAD_DIMENSION;
 	private static final int EAR_Y = HEAD_DIMENSION / 4;
+	private static final int BODY_X = 60;
+	private static final int BODY_Y = 40;
 
 	
 	// draw will render the Cat on the Graphics object
@@ -48,17 +50,27 @@ public class Cat {
 		y = catY + MOUTH_Y;
 		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
 
-		g2.setColor(Color.blue);
+		g2.setColor(Color.pink);
 		x = catX + EAR_X;
 		y = catY + EAR_Y;
 		g2.fillPolygon(new int[] {x, x + EAR_WIDTH / 2, x + EAR_WIDTH}, new int[] {y, y - EAR_HEIGHT, y}, 3);
+		//g2.rotate(45);
 
 		g2.fillPolygon(new int[] {x - 8 * EAR_WIDTH, x - 7 * EAR_WIDTH , x - 6 * EAR_WIDTH}, new int[] {y, y - EAR_HEIGHT, y}, 3);
+		//g2.rotate(-45);
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
+
+		g2.setColor(Color.green);
+		x = catX + BODY_X;
+		y = catY + BODY_Y;
+		g2.fillPolygon(new int[] {x + 20, x + BODY_X / 2, x + BODY_Y}, new int[] {y+20, y - BODY_Y, y+20}, 3);
+
+
 		g2.setColor(Color.pink);
 
 		g2.drawString("I hate ryon", catX, catY+HEAD_DIMENSION+10);	
 		g2.drawString("I'm a very silly cat", catX+HEAD_DIMENSION+30, catY+HEAD_DIMENSION+40);	
+		g2.drawString("Here is my green magic wand!", catX+HEAD_DIMENSION+50, catY+HEAD_DIMENSION+70);
 	}
 }
