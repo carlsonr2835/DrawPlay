@@ -66,6 +66,8 @@ public class Cat {
 		y = catY + BODY_Y;
 		g2.fillPolygon(new int[] {x + 20, x + BODY_X / 2, x + BODY_Y}, new int[] {y+20, y - BODY_Y, y+20}, 3);
 
+		g2.fillRect(x, y, x + BODY_Y, y + 10);
+
 
 		g2.setColor(Color.pink);
 
