@@ -1,0 +1,53 @@
+commit 2955231935b1156e5688ff0e137cf5ef59761adb
+Author: carlsonr2835 <71044907+carlsonr2835@users.noreply.github.com>
+Date:   Fri Feb 16 11:11:37 2024 -0700
+
+    I made the weird box yellow
+
+commit ee3debb6bc230c4655d429566c500c07248b2e97
+Author: thiccboimork <118483938+thiccboimork@users.noreply.github.com>
+Date:   Fri Feb 16 11:09:19 2024 -0700
+
+    made green body
+
+commit 4155c08f35f678392b33e5226d5a2e036861cf52
+Author: carlsonr2835 <71044907+carlsonr2835@users.noreply.github.com>
+Date:   Thu Feb 15 16:47:23 2024 -0700
+
+    added green magic wand
+
+commit d1684a8df5b1c880db3c7e757caccc24e791f8a8
+Author: thiccboimork <118483938+thiccboimork@users.noreply.github.com>
+Date:   Thu Feb 15 16:34:56 2024 -0700
+
+    created ears (that are not connected to the head)
+
+commit ebf36d76ed1affb3a023c9ff5c32fb6b60a4a7a7
+Author: carlsonr2835 <71044907+carlsonr2835@users.noreply.github.com>
+Date:   Thu Feb 15 16:00:42 2024 -0700
+
+    Ryan added another string of text
+
+commit fed6eb9dbd3b715f9f35facb923401e0343495d4
+Author: thiccboimork <118483938+thiccboimork@users.noreply.github.com>
+Date:   Wed Feb 14 11:36:32 2024 -0700
+
+    following the instructions...
+
+commit eb60537f5ae91efefdf7fc6e486b7fc0d697e5fa
+Author: carlsonr2835 <71044907+carlsonr2835@users.noreply.github.com>
+Date:   Mon Feb 12 16:37:41 2024 -0700
+
+    added git ignore
+
+commit 48a3698e91694de13cfbe423c4eb003e4c1b1f4e
+Author: carlsonr2835 <71044907+carlsonr2835@users.noreply.github.com>
+Date:   Mon Feb 12 16:30:01 2024 -0700
+
+    initial commit-added the provided code
+
+commit e95980ca4c5c798150c01bbe01ff415731d677aa
+Author: carlsonr2835 <71044907+carlsonr2835@users.noreply.github.com>
+Date:   Mon Feb 12 16:20:08 2024 -0700
+
+    Initial commit
